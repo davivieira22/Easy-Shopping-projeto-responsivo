@@ -53,11 +53,12 @@ p {
 }
 
 button {
-    width: 269px;
+    width:320px;
     height: 62px;
     font-size: 24px;
+    font-weight:900;
     line-height: 36px;
-    color: rgba(255, 255, 255, 1);
+    color: red;
     background-color: rgba(148, 153, 234, 1);
     border-radius: 2cm;
     border: none;
@@ -66,7 +67,7 @@ button {
 }
 
 button:hover {
-    opacity: .8;
+    opacity: .10;
 }
 
 button:active {
@@ -152,10 +153,14 @@ header {
 
 
 
-}@media screen and (max-width:340px) {.container-left{ height: 70%;
-
 }
-    
+
+@media screen and (max-width:340px) {
+    .container-left {
+        height: 70%;
+
+    }
+
 
 
 }
